@@ -201,6 +201,14 @@ img {
   border-style: none;
 }
 
+img2 {
+vertical-align: middle;
+border-style: none;
+width: 6rem;
+border: 4px solid #322428;
+border-radius: 50%;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
