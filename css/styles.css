@@ -10130,9 +10130,9 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 17rem;
+/*  width: 17rem;
   border: 4px solid #322428;
-  border-radius: 50%
+  border-radius: 50%*/
 }
 
 @media (min-width: 992px) {
