@@ -1998,7 +1998,7 @@ input::-moz-focus-inner {
   font-size: 7.8rem;
   font-weight: 500;
   line-height: 1.179;
-  color: #322428;
+  /*color: #322428;*/
   margin-top: 0;
 }
 
@@ -2384,7 +2384,7 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 
@@ -2411,7 +2411,7 @@ input::-moz-focus-inner {
     padding-left: 16px;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 
@@ -2454,7 +2454,7 @@ input::-moz-focus-inner {
     padding-left: 5.6rem;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 
@@ -2469,7 +2469,7 @@ input::-moz-focus-inner {
     max-width: 600px;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 
@@ -2502,7 +2502,7 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 
@@ -2535,7 +2535,7 @@ input::-moz-focus-inner {
     padding-left: 2.8rem;
   }
 
-  .colourTest {
+  .mob1 {
     color: #fff;
   }
 

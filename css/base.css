@@ -978,6 +978,11 @@ textarea {
 		padding: 0;
 	}
 
+
+	.mob1 {
+    	color: #fff;
+  }
+
 }
 
 
@@ -1090,6 +1095,11 @@ textarea {
 		max-width: 100%;
 	}
 
+	.mob1 {
+    	color: #fff;
+ 	}
+
+
 }
 
 /* ------------------------------------------------------------------- 
@@ -1144,6 +1154,11 @@ textarea {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
+
+	.mob1 {
+    	color: #fff;
+ 	}
+
 
 }
 
@@ -1200,6 +1215,10 @@ textarea {
 		max-width: 100%;
 	}
 
+	.mob1 {
+    	color: #fff;
+ 	}
+
 }
 
 /* ------------------------------------------------------------------- 
@@ -1216,6 +1235,10 @@ textarea {
 		margin-right: 0;
 		padding: 0;
 	}
+
+	.mob1 {
+    	color: #fff;
+ 	}
 
 }
 
