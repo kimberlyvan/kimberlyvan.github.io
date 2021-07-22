@@ -2159,6 +2159,9 @@ input::-moz-focus-inner {
     left: 30px;
   }
 
+  .mob2 {
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width:400px) {
@@ -2177,6 +2180,9 @@ input::-moz-focus-inner {
     font-size: 4.2rem;
   }
 
+  .mob2 {
+    padding-top: 10px;
+  }
 }
 
 

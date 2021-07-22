@@ -956,6 +956,9 @@ textarea {
 		display: none;
 	}
 
+	.mob2 {
+    	padding-top: 10px;
+  	}
 }
 
 /* ------------------------------------------------------------------- 
@@ -978,9 +981,12 @@ textarea {
 		padding: 0;
 	}
 
-
 	.mob1 {
     	color: #fff;
+  }
+
+  	.mob2 {
+    padding-top: 10px;
   }
 
 }
