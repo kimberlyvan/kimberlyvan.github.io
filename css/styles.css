@@ -79,7 +79,7 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -199,14 +199,6 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-}
-
-img2 {
-vertical-align: middle;
-border-style: none;
-width: 6rem;
-border: 4px solid #322428;
-border-radius: 50%;
 }
 
 svg {
@@ -367,7 +359,7 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6, {
+.h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
@@ -383,7 +375,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 2.6rem;
+  font-size: 1.75rem;
 }
 
 h4, .h4 {
@@ -483,8 +475,7 @@ mark,
 }
 
 .img-fluid {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -1129,12 +1120,6 @@ pre code {
   .col-md-12 {
     flex: 0 0 100%;
     max-width: 100%;
-  }
-
-  .col-md-13 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding-top: 2rem;
   }
 
   .order-md-first {
@@ -10137,9 +10122,9 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 18rem;
-/*  border: 4px solid #322428;
-  border-radius: 50%*/
+  width: 17rem;
+  border: 4px solid #322428;
+  border-radius: 50%
 }
 
 @media (min-width: 992px) {
