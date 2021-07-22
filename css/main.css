@@ -2384,10 +2384,6 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
-  .mob1 {
-    color: #fff;
-  }
-
 }
 
 @media screen and (max-width:1024px) {
@@ -2410,11 +2406,6 @@ input::-moz-focus-inner {
   .about-experience__timeline .column:last-child {
     padding-left: 16px;
   }
-
-  .mob1 {
-    color: #fff;
-  }
-
 }
 
 @media screen and (max-width:900px) {
