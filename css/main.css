@@ -2384,6 +2384,10 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
+  .colourTest {
+    color: #fff;
+  }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -2405,6 +2409,10 @@ input::-moz-focus-inner {
 
   .about-experience__timeline .column:last-child {
     padding-left: 16px;
+  }
+
+  .colourTest {
+    color: #fff;
   }
 
 }
@@ -2446,6 +2454,10 @@ input::-moz-focus-inner {
     padding-left: 5.6rem;
   }
 
+  .colourTest {
+    color: #fff;
+  }
+
 }
 
 @media screen and (max-width:800px) {
@@ -2455,6 +2467,10 @@ input::-moz-focus-inner {
 
   .s-about .row {
     max-width: 600px;
+  }
+
+  .colourTest {
+    color: #fff;
   }
 
 }
@@ -2486,6 +2502,10 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
+  .colourTest {
+    color: #fff;
+  }
+
 }
 
 @media screen and (max-width:400px) {
@@ -2513,6 +2533,10 @@ input::-moz-focus-inner {
 
   .timeline__block {
     padding-left: 2.8rem;
+  }
+
+  .colourTest {
+    color: #fff;
   }
 
 }
