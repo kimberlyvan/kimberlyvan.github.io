@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #322428;
+  color: #a4daee;
   text-align: left;
   background-color: #fff;
 }
@@ -2437,7 +2437,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #322428;
+  color: #a4daee;
   background-color: #f9c4c5;
   border-color: #f9c4c5;
 }
@@ -9771,7 +9771,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #322428 !important;
+  color: #a4daee !important;
 }
 
 .text-primary {
@@ -9783,7 +9783,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #322428 !important;
+  color: #a4daee !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10013,7 +10013,7 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #322428 !important;
+  color: #a4daee !important;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -10058,16 +10058,16 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #322428;
+  color: #a4daee;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #322428;
+  color: #a4daee;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #322428;
+  color: #a4daee;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10095,11 +10095,11 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #322428;
+    background: #a4daee;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #322428;
+    background: #a4daee;
   }
 
   #mainNav.navbar-shrink {
@@ -10123,7 +10123,7 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 17rem;
-  border: 4px solid #322428;
+  border: 4px solid #a4daee;
   border-radius: 50%
 }
 
@@ -10240,6 +10240,6 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #f9c4c5;
 /*  width: 2rem;
-  border: 4px solid #322428;
+  border: 4px solid #a4daee;
   border-radius: 50%*/
 }
