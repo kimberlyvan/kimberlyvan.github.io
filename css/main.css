@@ -51,10 +51,17 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+
+ html {
   font-size: 10px;
-  overflow-x:hidden;
+
 }
+
+html, body {
+  width: auto!important;
+  overflow-x: hidden!important
+
+} 
 
 @media screen and (max-width:400px) {
   html {
