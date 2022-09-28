@@ -100,22 +100,22 @@ a:active {
 
 /* unvisited link */
 a.class1:link {
-  color: #fff;
+  color: #a4daee;
 }
 
 /* visited link */
 a.class1:visited {
-  color: hotpink;
+  color: #fff;
 }
 
 /* mouse over link */
 a.class1:hover {
-  color: hotpink;
+  color: #fff;
 }
 
 /* selected link */
 a.class1:active {
-  color: hotpink;
+  color: #fff;
 }
 
 .links a{
@@ -3499,7 +3499,7 @@ footer {
   padding-top: 0;
   padding-bottom: 6.4rem;
   border-top: 1px solid rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
   position: relative;
 }
 
