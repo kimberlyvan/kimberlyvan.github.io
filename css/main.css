@@ -68,7 +68,7 @@ body {
 }
 
 body {
-  background: #050505;
+  background: #122430;
   font-family: "Lora", serif;
   font-size: 1.7rem;
   font-style: normal;
@@ -728,7 +728,7 @@ legend {
   font-size: 1.4rem;
   margin-bottom: .8rem;
   line-height: 1.714;
-  color: #000000;
+  color: #122430;
   display: block;
 }
 
@@ -869,8 +869,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #000000;
-  border-color: #000000;
+  background: #122430;
+  border-color: #122430;
   color: #ffffff;
 }
 
@@ -884,8 +884,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #cf1767;
-  border-color: #cf1767;
+  background: #a4daee;
+  border-color: #a4daee;
 }
 
 /* button modifiers
@@ -917,7 +917,7 @@ button.btn--stroke {
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-  background: #000000 !important;
+  background: #122430 !important;
   border: 0.2rem solid #000000;
   color: #ffffff;
 }
@@ -2920,7 +2920,7 @@ input::-moz-focus-inner {
 
 .item-folio__title {
   font-weight: 500;
-  color: #a4daee;
+  color: #122430;
 }
 
 .item-folio__cat {
