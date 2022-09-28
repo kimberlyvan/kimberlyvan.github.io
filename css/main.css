@@ -131,7 +131,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 500;
   font-style: normal;
-  /color: #a4daee;/
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
@@ -3338,7 +3337,7 @@ input::-moz-focus-inner {
 .contact-main a:hover,
 .contact-main a:focus,
 .contact-main a:active {
-  color: #cf1767;
+  color: #4792BA;
   border-bottom: 1px solid white;
 }
 
@@ -3566,7 +3565,7 @@ footer a:visited {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #cf1767;
+  background-color: #4792BA;
   color: #ffffff;
 }
 
