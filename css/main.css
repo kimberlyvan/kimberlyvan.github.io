@@ -2800,13 +2800,19 @@ input::-moz-focus-inner {
  * # works
  *
  * ------------------------------------------------------------------- */
+ .s-brand {
+  padding-top: 19.2rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+
  .s-design {
   padding-top: 19.2rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
 }
 
- .s-portfolio {
+ .s-illustration {
   padding-top: 19.2rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
@@ -2815,7 +2821,7 @@ input::-moz-focus-inner {
 .masonry-wrap {
   width: 89%;
   max-width: 1400px;
-  margin-top: 11.2rem;
+  margin-top: 6.2rem;
   margin-right: auto;
   margin-left: auto;
 }
