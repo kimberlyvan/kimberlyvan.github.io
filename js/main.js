@@ -20,6 +20,7 @@
     doc.setAttribute('data-useragent', navigator.userAgent);
 
 
+
    /* Preloader
     * -------------------------------------------------- */
     var ssPreloader = function() {
@@ -29,7 +30,36 @@
         $WIN.on('load', function() {
 
             //force page scroll position to top at page refresh
-            $('html, body').animate({ scrollTop: 0 }, 'normal');
+            // if (top.location.pathname === 'index.html') {
+            //     parent.location.hash = '';
+            //     $('html, body').animate({ scrollTop: 0 }, 'normal');
+            // }
+            $(document).ready(function() {
+                var hash = window.location.hash;
+                if (hash) {
+                 var elem = document.getElementById(hash.substring(1));
+                 if (elem) {
+                  elem.scrollIntoView();
+                 }
+                }
+               });
+               
+            // var page = path.split("/").pop();
+            var hdr = $('.temp');
+            hdr.addClass('sticky');
+            if(pageAccessedByReload) {
+                removeHash();
+                $('html, body').animate({ scrollTop: 0 }, 'normal');
+                // var hdr = $('.s-header'),
+                // hdrTop = $('.s-header').offset().top;
+
+                // if ($WIN.scrollTop() > hdrTop) {
+                //     hdr.addClass('sticky');
+                // }
+                // else {
+                //     hdr.removeClass('sticky');
+                // }
+            }
 
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
@@ -44,17 +74,33 @@
         });
     };
 
+    const pageAccessedByReload = (
+        (window.performance.navigation && window.performance.navigation.type === 1) ||
+          window.performance
+            .getEntriesByType('navigation')
+            .map((nav) => nav.type)
+            .includes('reload')
+      );
+
+      function removeHash () { 
+        history.pushState("", document.title, window.location.pathname
+                                                           + window.location.search);
+    }
+      
+      
+
 
    /* Menu on Scrolldown
     * ------------------------------------------------------ */
     var ssMenuOnScrolldown = function() {
-        
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
         var hdr = $('.s-header'),
             hdrTop = $('.s-header').offset().top;
 
         $WIN.on('scroll', function() {
 
-            if ($WIN.scrollTop() > hdrTop) {
+            if ($WIN.scrollTop() > hdrTop || page === 'attribution.html') {
                 hdr.addClass('sticky');
             }
             else {
@@ -222,7 +268,7 @@
             var target = this.hash,
             $target    = $(target);
             
-                e.preventDefault();
+                // e.preventDefault();
                 e.stopPropagation();
                 
 
@@ -247,9 +293,16 @@
         $('.temp1').on('click', function (e) {
             var target = this.hash,
             $target    = $(target);
-            console.log("hello", this);
-            setTimeout(function(){ alert("After 5 seconds!"); }, 5000);
-                e.preventDefault();
+            //console.log("hello", this);
+            setTimeout(ssSmoothScroll(), 5000);
+
+            window.onload = function() {
+                ssSmoothScroll();
+              };
+            //window.location.hash = target;
+
+
+                // e.preventDefault();
         //         e.stopPropagation();
                 
 
