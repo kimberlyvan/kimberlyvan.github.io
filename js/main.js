@@ -224,6 +224,7 @@
             
                 e.preventDefault();
                 e.stopPropagation();
+                
 
             $('html, body').stop().animate({
                 'scrollTop': $target.offset().top
@@ -236,6 +237,33 @@
 
                 window.location.hash = target;
             });
+        });
+
+    };
+
+    
+    var temp = function() {
+        
+        $('.temp1').on('click', function (e) {
+            var target = this.hash,
+            $target    = $(target);
+            console.log("hello", this);
+            setTimeout(function(){ alert("After 5 seconds!"); }, 5000);
+                e.preventDefault();
+        //         e.stopPropagation();
+                
+
+        //     $('html, body').stop().animate({
+        //         'scrollTop': $target.offset().top
+        //     }, cfg.scrollDuration, 'swing').promise().done(function () {
+
+        //         // check if menu is open
+        //         if ($('body').hasClass('menu-is-open')) {
+        //             $('.header-menu-toggle').trigger('click');
+        //         }
+
+        //         window.location.hash = target;
+        //     });
         });
 
     };
@@ -281,6 +309,7 @@
         ssSlickSlider();
         ssSmoothScroll();
         ssAlertBoxes();
+        temp();
         ssAOS();
 
     })();
