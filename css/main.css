@@ -216,6 +216,44 @@ p.lead {
   color: #122430;
 }
 
+li.lead {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.833;
+  margin-bottom: -3rem;
+  color: #122430;
+}
+
+a.lead {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.833;
+  margin-bottom: -3rem;
+  color: #122430;
+}
+
+/* unvisited link */
+a.lead:link {
+  color: #122430;
+}
+
+/* visited link */
+a.lead:visited {
+  color: #a4daee;
+}
+
+/* mouse over link */
+a.lead:hover {
+  color: #a4daee;
+}
+
+/* selected link */
+a.lead:active {
+  color: ##122430;
+}
+
 @media screen and (max-width:1200px) {
   p.lead {
     font-size: 2.2rem;
