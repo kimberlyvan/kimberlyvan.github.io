@@ -260,66 +260,87 @@
     };
 
 
-   /* Smooth Scrolling
-    * ------------------------------------------------------ */
-    var ssSmoothScroll = function() {
+//    /* Smooth Scrolling
+//     * ------------------------------------------------------ */
+    const links = document.querySelectorAll(".smoothscroll");
+
+    for (const link of links) {
+    link.addEventListener("click", clickHandler);
+    }
+
+    function clickHandler(e) {
+        // check if menu is open
+        if ($('body').hasClass('menu-is-open')) {
+            $('.header-menu-toggle').trigger('click');
+        }
+        e.preventDefault();
+        e.stopPropagation();
+
+        const href = this.getAttribute("href");
+      
+        document.querySelector(href).scrollIntoView({
+
+            behavior: "smooth"
         
-        $('.smoothscroll').on('click', function (e) {
-            var target = this.hash,
-            $target    = $(target);
+          });
+      }
+        
+//         $('.smoothscroll').on('click', function (e) {
+//             var target = this.hash,
+//             $target    = $(target);
             
-                // e.preventDefault();
-                e.stopPropagation();
+//                 e.preventDefault();
+//                 e.stopPropagation();
                 
 
-            $('html, body').stop().animate({
-                'scrollTop': $target.offset().top
-            }, cfg.scrollDuration, 'swing').promise().done(function () {
+//             $('html, body').stop().animate({
+//                 'scrollTop': $target.offset().top
+//             }, cfg.scrollDuration, 'swing').promise().done(function () {
 
-                // check if menu is open
-                if ($('body').hasClass('menu-is-open')) {
-                    $('.header-menu-toggle').trigger('click');
-                }
+//                 // check if menu is open
+//                 if ($('body').hasClass('menu-is-open')) {
+//                     $('.header-menu-toggle').trigger('click');
+//                 }
 
-                window.location.hash = target;
-            });
-        });
+//                 window.location.hash = target;
+//             });
+//         });
 
-    };
+//     };
 
     
-    var temp = function() {
+//     var temp = function() {
         
-        $('.temp1').on('click', function (e) {
-            var target = this.hash,
-            $target    = $(target);
-            //console.log("hello", this);
-            setTimeout(ssSmoothScroll(), 5000);
+//         $('.temp1').on('click', function (e) {
+//             var target = this.hash,
+//             $target    = $(target);
+//             //console.log("hello", this);
+//             setTimeout(ssSmoothScroll(), 5000);
 
-            window.onload = function() {
-                ssSmoothScroll();
-              };
-            //window.location.hash = target;
+//             window.onload = function() {
+//                 ssSmoothScroll();
+//               };
+//             //window.location.hash = target;
 
 
-                // e.preventDefault();
-        //         e.stopPropagation();
+//                 // e.preventDefault();
+//         //         e.stopPropagation();
                 
 
-        //     $('html, body').stop().animate({
-        //         'scrollTop': $target.offset().top
-        //     }, cfg.scrollDuration, 'swing').promise().done(function () {
+//         //     $('html, body').stop().animate({
+//         //         'scrollTop': $target.offset().top
+//         //     }, cfg.scrollDuration, 'swing').promise().done(function () {
 
-        //         // check if menu is open
-        //         if ($('body').hasClass('menu-is-open')) {
-        //             $('.header-menu-toggle').trigger('click');
-        //         }
+//         //         // check if menu is open
+//         //         if ($('body').hasClass('menu-is-open')) {
+//         //             $('.header-menu-toggle').trigger('click');
+//         //         }
 
-        //         window.location.hash = target;
-        //     });
-        });
+//         //         window.location.hash = target;
+//         //     });
+//         });
 
-    };
+//     };
 
 
    /* Alert Boxes
@@ -360,9 +381,9 @@
         ssMasonryFolio();
         ssPhotoswipe();
         ssSlickSlider();
-        ssSmoothScroll();
+        //ssSmoothScroll();
         ssAlertBoxes();
-        temp();
+        //temp();
         ssAOS();
 
     })();
