@@ -1879,7 +1879,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .header-main-nav {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .header-main-nav li {
