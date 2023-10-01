@@ -1742,10 +1742,11 @@ input::-moz-focus-inner {
 }
 
 .header-main-nav {
-  font-family: "Roboto", sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.179;
+  letter-spacing: 0.1rem;
   color: #a4daee;
   margin: 0 0 0 4px;
   z-index: 2;
